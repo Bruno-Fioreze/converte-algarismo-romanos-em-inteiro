@@ -24,4 +24,4 @@ for caractere in caractere_digitado:
         valor_total += valores_dict.get(caractere)
     indice = indice + 1
 
-print("".join(caractere_digitado),"=",valor_total)
+print(f"{join(caractere_digitado)} = {valor_total} ")
